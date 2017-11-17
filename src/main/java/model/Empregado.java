@@ -21,19 +21,11 @@ public class Empregado implements Serializable {
     
     private int matricula;
     private String nomeEmpregado;
-    private List<Pedido> pedido;  //Servirá quando for necessário saber se ele está livre ou não
     private List<Funcoes> funcao;
 
     public Empregado() {
     }
 
-    public List<Pedido> getPedido() {
-        return pedido;
-    }
-
-    public void setPedido(List<Pedido> pedido) {
-        this.pedido = pedido;
-    }
     
     public int getMatricula() {
         return matricula;
