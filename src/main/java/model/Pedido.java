@@ -20,11 +20,11 @@ import javax.persistence.Id;
 @Entity
 public class Pedido implements Serializable {
     
-    double metragem;
-    Date dataRealizacao;
-    int nrpedido;
-    List<Servico> servico;
-    List<Empregado> empregado;
+    private double metragem;
+    private Date dataRealizacao;
+    private int nrpedido;
+    private List<Servico> servico;
+    private List<Empregado> empregado;
 
     public Pedido() {
     }

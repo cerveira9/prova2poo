@@ -18,9 +18,9 @@ import javax.persistence.Id;
 @Entity
 public class Cliente implements Serializable {
     
-    String cpf;
-    String cnpj;
-    String nomeDoCliente;
+    private String cpf;
+    private String cnpj;
+    private String nomeDoCliente;
 
     public Cliente() {
     }

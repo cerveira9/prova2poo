@@ -18,10 +18,10 @@ import javax.persistence.Id;
 @Entity
 public class Funcoes implements Serializable {
 
-    String nomeDaFuncao;
-    String descricaoFuncao;
-    int qtdHomem;
-    double salarioBase;
+    private String nomeDaFuncao;
+    private String descricaoFuncao;
+    private int qtdHomem;
+    private double salarioBase;
 
     public Funcoes() {
     }

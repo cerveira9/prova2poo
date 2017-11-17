@@ -18,9 +18,9 @@ import javax.persistence.Id;
 @Entity
 public class Servico implements Serializable {
 
-    int codigoServico;
-    String nomeDoServico;
-    double valorServico;
+    private int codigoServico;
+    private String nomeDoServico;
+    private double valorServico;
 
     public Servico() {
     }

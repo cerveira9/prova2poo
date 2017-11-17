@@ -19,10 +19,10 @@ import javax.persistence.Id;
 @Entity
 public class Empregado implements Serializable {
     
-    int matricula;
-    String nomeEmpregado;
-    Boolean livre;
-    List<Funcoes> funcao;
+    private int matricula;
+    private String nomeEmpregado;
+    private Boolean livre;
+    private List<Funcoes> funcao;
 
     public Empregado() {
     }
