@@ -21,6 +21,33 @@ public class Servico implements Serializable {
     int codigoServico;
     String nomeDoServico;
     double valorServico;
+
+    public Servico() {
+    }
+
+    public int getCodigoServico() {
+        return codigoServico;
+    }
+
+    public void setCodigoServico(int codigoServico) {
+        this.codigoServico = codigoServico;
+    }
+
+    public String getNomeDoServico() {
+        return nomeDoServico;
+    }
+
+    public void setNomeDoServico(String nomeDoServico) {
+        this.nomeDoServico = nomeDoServico;
+    }
+
+    public double getValorServico() {
+        return valorServico;
+    }
+
+    public void setValorServico(double valorServico) {
+        this.valorServico = valorServico;
+    }
     
     private static final long serialVersionUID = 1L;
     @Id
