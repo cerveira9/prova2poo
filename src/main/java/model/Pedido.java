@@ -23,7 +23,7 @@ public class Pedido implements Serializable {
     Date dataRealizacao;
     String servico;
     int nrpedido;
-    
+    List<Servico> servico;
     
     private static final long serialVersionUID = 1L;
     @Id
