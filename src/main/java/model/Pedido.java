@@ -6,6 +6,7 @@
 package model;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +22,6 @@ public class Pedido implements Serializable {
     
     double metragem;
     Date dataRealizacao;
-    String servico;
     int nrpedido;
     List<Servico> servico;
     
