@@ -22,7 +22,41 @@ public class Funcoes implements Serializable {
     String descricaoFuncao;
     int qtdHomem;
     double salarioBase;
-    
+
+    public Funcoes() {
+    }
+
+    public String getNomeDaFuncao() {
+        return nomeDaFuncao;
+    }
+
+    public void setNomeDaFuncao(String nomeDaFuncao) {
+        this.nomeDaFuncao = nomeDaFuncao;
+    }
+
+    public String getDescricaoFuncao() {
+        return descricaoFuncao;
+    }
+
+    public void setDescricaoFuncao(String descricaoFuncao) {
+        this.descricaoFuncao = descricaoFuncao;
+    }
+
+    public int getQtdHomem() {
+        return qtdHomem;
+    }
+
+    public void setQtdHomem(int qtdHomem) {
+        this.qtdHomem = qtdHomem;
+    }
+
+    public double getSalarioBase() {
+        return salarioBase;
+    }
+
+    public void setSalarioBase(double salarioBase) {
+        this.salarioBase = salarioBase;
+    }
     
     private static final long serialVersionUID = 1L;
     @Id
