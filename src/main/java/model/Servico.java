@@ -18,7 +18,9 @@ import javax.persistence.Id;
 @Entity
 public class Servico implements Serializable {
 
+    int codigoServico;
     String nomeDoServico;
+    double valorServico;
     
     private static final long serialVersionUID = 1L;
     @Id
