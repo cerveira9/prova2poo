@@ -25,6 +25,7 @@ public class Pedido implements Serializable {
     private int nrpedido;
     private List<Servico> servico;
     private List<Empregado> empregado;
+    
 
     public Pedido() {
     }
