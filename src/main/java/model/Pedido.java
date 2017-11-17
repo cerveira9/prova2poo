@@ -29,6 +29,14 @@ public class Pedido implements Serializable {
     public Pedido() {
     }
 
+    public List<Empregado> getEmpregado() {
+        return empregado;
+    }
+
+    public void setEmpregado(List<Empregado> empregado) {
+        this.empregado = empregado;
+    }
+    
     public double getMetragem() {
         return metragem;
     }
