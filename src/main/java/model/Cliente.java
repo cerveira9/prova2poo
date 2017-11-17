@@ -21,6 +21,33 @@ public class Cliente implements Serializable {
     String cpf;
     String cnpj;
     String nomeDoCliente;
+
+    public Cliente() {
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+
+    public String getNomeDoCliente() {
+        return nomeDoCliente;
+    }
+
+    public void setNomeDoCliente(String nomeDoCliente) {
+        this.nomeDoCliente = nomeDoCliente;
+    }
     
     private static final long serialVersionUID = 1L;
     @Id
