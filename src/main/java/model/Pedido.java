@@ -24,6 +24,41 @@ public class Pedido implements Serializable {
     Date dataRealizacao;
     int nrpedido;
     List<Servico> servico;
+
+    public Pedido() {
+    }
+
+    public double getMetragem() {
+        return metragem;
+    }
+
+    public void setMetragem(double metragem) {
+        this.metragem = metragem;
+    }
+
+    public Date getDataRealizacao() {
+        return dataRealizacao;
+    }
+
+    public void setDataRealizacao(Date dataRealizacao) {
+        this.dataRealizacao = dataRealizacao;
+    }
+
+    public int getNrpedido() {
+        return nrpedido;
+    }
+
+    public void setNrpedido(int nrpedido) {
+        this.nrpedido = nrpedido;
+    }
+
+    public List<Servico> getServico() {
+        return servico;
+    }
+
+    public void setServico(List<Servico> servico) {
+        this.servico = servico;
+    }
     
     private static final long serialVersionUID = 1L;
     @Id
