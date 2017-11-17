@@ -23,6 +23,43 @@ public class Empregado implements Serializable {
     String nomeEmpregado;
     Boolean livre;
     List<Funcoes> funcao;
+
+    public Empregado() {
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getNomeEmpregado() {
+        return nomeEmpregado;
+    }
+
+    public void setNomeEmpregado(String nomeEmpregado) {
+        this.nomeEmpregado = nomeEmpregado;
+    }
+
+    public Boolean getLivre() {
+        return livre;
+    }
+
+    public void setLivre(Boolean livre) {
+        this.livre = livre;
+    }
+
+    public List<Funcoes> getFuncao() {
+        return funcao;
+    }
+
+    public void setFuncao(List<Funcoes> funcao) {
+        this.funcao = funcao;
+    }
+    
+    
     
     private static final long serialVersionUID = 1L;
     @Id
