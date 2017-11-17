@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 /**
  *
@@ -21,11 +22,12 @@ public class Empregado implements Serializable {
     
     private int matricula;
     private String nomeEmpregado;
+    
+    @OneToMany
     private List<Funcoes> funcao;
 
     public Empregado() {
     }
-
     
     public int getMatricula() {
         return matricula;

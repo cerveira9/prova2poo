@@ -11,6 +11,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 /**
  *
@@ -19,7 +21,10 @@ import javax.persistence.Id;
 @Entity
 public class PedidoRealizado implements Serializable {
 
+    @OneToOne
     private List<Pedido> pedido;
+    
+    @OneToMany
     private List<Empregado> empregado;
     
     private static final long serialVersionUID = 1L;
